@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    header
+      h1=title
+      nav
+        a(href='/categories') Categories
+        a(href='/item-catalog') Items Catalog
+        a(href='/item-catalog') About
+    main
+      block content
+    footer
+      a(href='andyl22.github.com') Andy's Github
